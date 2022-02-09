@@ -1,0 +1,29 @@
+
+main{
+  background-color: #E39888;
+}
+
+a:link{
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+.important{
+  color: darkblue;
+  background-color: yellow;
+}
+
+#Pages{
+  background-color: #DAF7A6;
+}
+
+header{
+  background-color: pink;
+}
