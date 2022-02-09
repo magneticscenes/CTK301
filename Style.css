@@ -1,8 +1,4 @@
 
-main{
-  background-color: #E39888;
-}
-
 a:link{
   color: red;
 }
@@ -16,14 +12,27 @@ a:visited {
 }
 
 .important{
-  color: darkblue;
-  background-color: yellow;
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
 }
 
-#Pages{
-  background-color: #DAF7A6;
+body{
+  background-image: url("CTKBackground.png")
 }
 
-header{
-  background-color: pink;
+.customtext{
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.boxmodel{
+  border: 10px solid black;
+  padding: 20px 20px 20px 20px;
+}
+
+.textjustify {
+text-align: justify;
+}
+.textcenter {
+text-align: center;
 }
