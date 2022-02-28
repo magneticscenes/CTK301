@@ -1,0 +1,96 @@
+html{
+  background-image: url("BlueFabric.jpg");
+}
+
+body{
+  background-color: white;
+}
+
+h1{
+  font-weight: normal;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 10px;
+  grid-column: span 3;
+}
+
+h2{
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+/* bees{
+background-color: lightblue;
+text: white;
+} */
+nav{
+      grid-column: span 3;
+}
+nav ul{
+  color: white;
+  text-decoration: none;
+  list-style-type: square;
+  margin: 10;
+  padding: 0;
+
+}
+nav li{
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  width: 200px;
+  display: inline-block;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: green;
+}
+
+
+a{
+  color: red;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+main{
+    grid-column: span 2;
+}
+
+/* .anotherh2{
+  background-color: purple;
+  color: white
+} */
+
+/* .helpme{
+
+    background-color: lightblue;
+} */
+
+#link a{
+  text: red;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+  background-color: lightblue;
+      grid-column: span 3;
+      border: 1px solid black;
+}
