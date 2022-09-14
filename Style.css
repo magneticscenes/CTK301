@@ -25,6 +25,13 @@ a:visited {
   background-color: lightgreen;
 }
 
+#redify{
+  color: red;
+  font-style: normal;
+  font-weight: bold;
+  background-color: pink;
+}
+
 body{
   background: 255, 255, 100, 50;
 }
