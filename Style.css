@@ -11,14 +11,22 @@ a:visited {
   color: green;
 }
 
-.important{
-  color: orange;
-  font-style: italic;
-  font-weight: normal;
+.blueify{
+  color: blue;
+  font-style: normal;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+#greenify{
+  color: green;
+  font-style: normal;
+  font-weight: bold;
+  background-color: lightgreen;
 }
 
 body{
-  background-image: url("CTKBackground.png")
+  background: 255, 255, 100, 50;
 }
 
 .customtext{
