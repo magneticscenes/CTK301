@@ -1,14 +1,13 @@
 
 
-a:link{
+a{
   color: green;
-  style: none;
-
+  text-decoration: none;
 }
 
 a:hover {
-  color: red
-  style: underline;
+  color: red;
+  text-decoration: underline;
 }
 
 
@@ -20,7 +19,7 @@ h1{
 }
 
 #perry{
-  background-color: 156, 164, 255;
+  background-color: rgb(156, 164, 255);
 }
 
 h2{
