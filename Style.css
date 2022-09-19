@@ -1,27 +1,61 @@
 
-a:link{
-  color: red;
+h1{
+  color: white;
+  font-style: ;
+  font-weight: bold;
 }
 
-a:hover {
-  color: yellow;
+header{
+  background-color: 156, 164, 255;
 }
 
-a:visited {
-  color: green;
-}
-
-.blueify{
+h2{
   color: blue;
-  font-style: normal;
+  font-style: ;
   font-weight: bold;
-  background-color: lightblue;
 }
 
-#greenify{
-  color: green;
-  font-style: normal;
+h3{
+  color: black;
+  font-style: ;
   font-weight: bold;
+  background-color: yellow;
+}
+
+h4{
+  color: yellow;
+  font-style: ;
+  font-weight: bold;
+  background-color: darkgreen;
+}
+
+h5{
+  color: red;
+  font-style: ;
+  font-weight: ;
+  background-color: ;
+}
+
+footer{
+  background-color: yellow;
+}
+
+.orange{
+  color: orange;
+  font-style: ;
+  font-weight: ;
+}
+
+#red{
+  color: red;
+  font-style:;
+  font-weight:;
+}
+
+.lightgreen{
+  color: black;
+  font-style: ;
+  font-weight: ;
   background-color: lightgreen;
 }
 
@@ -32,22 +66,13 @@ a:visited {
   background-color: pink;
 }
 
-body{
-  background: 255, 255, 100, 50;
+a:link{
+  color: green;
+  style: none;
+
 }
 
-.customtext{
-  font-family: sans-serif, Arial, Helvetica;
-}
-
-.boxmodel{
-  border: 10px solid black;
-  padding: 20px 20px 20px 20px;
-}
-
-.textjustify {
-text-align: justify;
-}
-.textcenter {
-text-align: center;
+a:hover {
+  color: red
+  style: underline;
 }
