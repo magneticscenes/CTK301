@@ -1,0 +1,66 @@
+
+a:link{
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+.photo{
+
+}
+
+.oran{
+  color: orange;
+  font-style: italic;
+  font-weight: none;
+}
+
+.blueify{
+  color: blue;
+  font-style: normal;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+#greenify{
+  color: green;
+  font-style: normal;
+  font-weight: bold;
+  background-color: lightgreen;
+}
+
+#redify{
+  color: red;
+  font-style: normal;
+  font-weight: bold;
+  background-color: pink;
+}
+
+body{
+  background: 255, 255, 100, 50;
+  text-align: center;
+}
+
+nav{
+  text-align: justify;
+}
+
+.whole{
+  font-family: sans-serif;
+  background-image: url(ISUbackground.jpeg);
+  background-repeat: 2,2;
+  background-position: top left;
+  }
+
+  .imgbox {
+  border: 10px solid #000000;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  }
