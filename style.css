@@ -1,16 +1,19 @@
 
 a{
-  color: red;
+  color: darkblue;
+font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
   color: red;
+  font-weight: bold;
   text-decoration: underline;
 }
 
 h1{
 font-family: helvetica;
+font-weight: normal;
 
 }
 
@@ -21,15 +24,34 @@ h2{
 
 footer{
   font-family: Verdana;
+  color: white;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  border: 10px solid #0000ff;
+  border: 5px solid #ffffff;
   padding: 10px 10px 10px 10px;
   margin: 20px 20px 20px 20px;
   background-color: darkblue;
 }
 
+.boxed{
+  color: black;
+  font-weight: ;
+  font-style: ;
+  text-align: justify;
+border: 5px solid #ffffff;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+}
+
 .whole{
 background-image: url(a5bg.png);
+}
+
+header{
+  border: 5px solid #ffffff;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
 }
