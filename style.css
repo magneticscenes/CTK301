@@ -1,25 +1,13 @@
 
-a{
-  color: darkblue;
-font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 h1{
 font-family: helvetica;
 font-weight: normal;
-
 }
 
 h2{
   font-family: helvetica;
   font-weight: bold;
+  border-bottom: 3px solid black;
 }
 
 footer{
@@ -39,7 +27,7 @@ footer{
   font-weight: ;
   font-style: ;
   text-align: justify;
-border: 5px solid #ffffff;
+  border: 5px solid #ffffff;
   padding: 10px 10px 10px 10px;
   margin: 20px 20px 20px 20px;
   background-color: white;
@@ -54,4 +42,43 @@ header{
   padding: 10px 10px 10px 10px;
   margin: 20px 20px 20px 20px;
   background-color: white;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  background-color: darkblue;
+  margin: 10px;
+  padding: 0px;
+  width: 200px;
+  display: inline-block;
+}
+
+nav li a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px;
+}
+
+nav li a:hover{
+  background-color: #005090;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
 }
