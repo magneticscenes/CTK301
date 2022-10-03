@@ -1,0 +1,62 @@
+header {
+  grid-column: span 6;
+  background-color: pink;
+}
+
+nav {
+  grid-column: span 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 4;
+  margin: 10px;
+}
+
+main h2{
+  margin: 3px;
+  padding: 3px;
+}
+
+aside {
+  padding: 20px;
+  background-color: maroon;
+}
+
+footer {
+  grid-column: span 6;
+  background-color: pink;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.floatimg{
+  float: left;
+  margin-right: 10px;
+}
