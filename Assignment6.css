@@ -1,0 +1,111 @@
+header {
+  grid-column: span 6;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 5px;
+  font-family: helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1{
+  font-weight: normal;
+}
+nav {
+  grid-column: span 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  padding: 4px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid red;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  display: block;
+  background-color: #991010;
+  border: 1px solid red;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column:span 5;
+  margin: 5px;
+  padding: 10px;
+}
+
+main h2{
+  border-bottom: 2px solid black;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 4px;
+  margin-top: 0px;
+}
+
+main a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+main a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.georgia{
+  font-family: georgia;
+  font-weight: bold;
+  text-align: justify;
+}
+
+footer {
+  grid-column: span 6;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+  border-top: 5px solid black;
+
+}
+
+.floatimg{
+  grid-column: span 4;
+  float: left;
+  margin-right: 10px;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+#whole{
+background-image: url(a62.png);
+border: black;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
