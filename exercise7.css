@@ -1,0 +1,108 @@
+header {
+  grid-column: span 6;
+  background-color: lightblue;
+  padding-left: 20px;
+}
+
+nav {
+  grid-column: span 6;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  background-color: black;
+  margin: 10px;
+  padding: 0px;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav li a{
+  display: block;
+  background-color: green;
+  border: 2px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  display: block;
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  grid-column: span 4;
+  margin: 10px;
+  font-family: helvetica;
+}
+
+main h2{
+  margin: 3px;
+  padding: 3px;
+  border-bottom: 4px solid black;
+}
+
+aside{
+  padding: 20px;
+  margin: 10px;
+  background-color: lightblue;
+  grid-column: span 2;
+  color: white;
+  font-family: georgia;
+}
+
+aside h2{
+    border-bottom: 4px solid white;
+}
+
+footer {
+  grid-column: span 6;
+  background-color: lightblue;
+  padding-left: 20px;
+}
+
+a{
+  color: green;
+font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.floatimg{
+  float: right;
+  margin-right: 10px;
+}
+
+#greeny a{
+text: green;
+}
+
+.whole{
+  background-image: url(goddy.jpeg);
+}
