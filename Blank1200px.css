@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+
+header{
+  background-image: linear-gradient(to top, #000000, #0e0706, #160f08, #19160a, #181c10);
+  grid-column: span 12;
+ text-align: center;
+}
+header h1{
+  color: white;
+}
+header h1 a{
+  color: white;
+  text-decoration: none;
+}
+header h1 a:hover{
+  text-decoration: none;
+}
+
+nav{
+  grid-column: span 12;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 350px;
+  padding: 10px;
+  display: inline-block;
+  background-image: url(button.png);
+}
+
+nav li a{
+  display: block;
+  background-image: linear-gradient(to right bottom, #060606, #161717, #212323, #2d302f, #3c3d3a);
+  border: 2px solid white;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: black;
+  background-color: white;
+}
+
+.floatimg{
+  grid-column: span 4;
+  float: right;
+  margin: 15px;
+  border: 10px solid white;
+}
+
+main{
+    grid-column: span 8;
+}
+
+footer{
+    grid-column: span 12;
+    text-align: right;
+}
+
+#wrapper {
+  color: white;
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid white;
+  padding: 24px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  /* grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */ */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
