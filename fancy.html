@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fancy Example</title>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+
+  <link rel="stylesheet" href="fancy.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Fancy Example</h1>
+
+    <a href="patch.jpg"
+  data-fancybox="gallery"
+  data-caption="Rare Ancient Patch from the Biblical Canadian Wars 400 B.C.">
+  <a href="icecream.jpg"
+data-fancybox="gallery"
+data-caption="Local Drive Thru Hands Out Free Gang Signs For Christmas">
+<a href="water.jpg"
+data-fancybox="gallery"
+data-caption="Water">
+
+  <img src="patch_thumb.jpg" alt="Patch" </a>
+    <img src="icecream_thumb.jpg" alt="Ice Cream" </a>
+      <img src="water_thumb.jpg" alt="Water" </a>
+
+<div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><img src="patch.jpg"></div>
+    <div class="carousel__slide"><img src="icecream.jpg"></div>
+    <div class="carousel__slide"><img src="water.jpg"></div>
+</div>
+
+  </div>
+  <script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+  // Your options go here
+});
+</script>
+</body>
+</html>
