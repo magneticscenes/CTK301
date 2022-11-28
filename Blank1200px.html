@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 </head>
 <body id= "whole">
   <div id ="wrapper">
@@ -38,11 +40,40 @@
 
   <iframe width="460" height="215" src="https://www.youtube.com/embed/mcpGs2RnP3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+  <a href="Cat3.jpg"
+data-fancybox="gallery"
+data-caption="My Chirstmas tree this year.">
+<a href="Cat1.jpg"
+data-fancybox="gallery"
+data-caption="Albert">
+<a href="Cat2.jpg"
+data-fancybox="gallery"
+data-caption="Ophelia">
+
+<!-- <img src="Cat1.jpg" alt="Albert" </a>
+  <img src="Cat2.jpg" alt="Ophelia" </a>
+    <img src="Cat3.jpg" alt="Tree" </a> -->
+
+<div id="myCarousel" class="carousel">
+  <div class="carousel__slide"><img src="Cat1.jpg"></div>
+  <div class="carousel__slide"><img src="Cat2.jpg"></div>
+  <div class="carousel__slide"><img src="Cat3.jpg"></div>
+</div>
+
 </main>
 
 <footer>
   <img  class= "floatimgfoot" src="wordmark_isu.png" alt="ISU Logo" />
 </footer>
+
+
 </div>
+
+<script>
+const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+// Your options go here
+});
+</script>
+
 </body>
 </html>
