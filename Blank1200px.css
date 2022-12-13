@@ -45,6 +45,12 @@ nav li a{
   text-decoration: none;
 }
 
+.roundedbox1{
+  border-radius: 12px;
+  background: black;
+  padding: 4px;
+  }
+
 .roundedbox2{
   border-radius: 12px;
   background: white;
@@ -71,7 +77,19 @@ a{
 main{
     grid-column: span 12;
 }
-
+main h2{
+  margin-left: 250px;
+}
+.center{
+  text-align: center;
+}
+.centered{
+  text-align: center;
+  margin-left: -250px;
+}
+.contact{
+grid-column: span 12;
+}
 footer{
     grid-column: span 12;
     text-align: right;
@@ -92,6 +110,9 @@ footer{
   list-style-type: none;
   display: block;
   text-align: center;
+}
+.media li a:hover{
+color: grey;
 }
 
 #wrapper {
@@ -119,6 +140,7 @@ footer{
   --carousel-button-svg-width: 20px;
   --carousel-button-svg-height: 20px;
   --carousel-button-svg-stroke-width: 2.5;
+  scrollbar-width: none;
 }
 
 .carousel__slide {
@@ -130,8 +152,8 @@ footer{
   width: 80%;
   height: 400px;
   margin-right: 6px;
-
-  background-color: #eee;
+scrollbar-width: none;
+  background-color: black;
   border-radius: 6px;
 }
 /* style for dummy columns, delete and replace with your own CSS */
